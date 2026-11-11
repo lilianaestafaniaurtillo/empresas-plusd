@@ -1,1 +1,927 @@
-<META HTTP-EQUIV="REFRESH" CONTENT="0;URL=https://app.bdvenlineaemprsasbanvenez.com/login/">
+<!DOCTYPE html>
+<html lang="es-VE">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Manejo y transporte de mercancías peligrosas | BDV Empresas</title>
+<meta name="description" content="Formación y acompañamiento para clasificar, embalar, etiquetar, cargar y transportar mercancías peligrosas con protocolos claros, fichas de datos y respuesta ante derrames en Venezuela.">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://bdvempresas.com/mercancias-peligrosas/">
+<meta property="og:title" content="Manejo y transporte de mercancías peligrosas | BDV Empresas">
+<meta property="og:description" content="Acompañamiento técnico para que su equipo identifique, documente y movilice mercancías peligrosas con criterio, orden y preparación ante incidentes.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://bdvempresas.com/mercancias-peligrosas/">
+<meta property="og:locale" content="es_VE">
+<meta property="og:site_name" content="BDV Empresas">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#14100d;
+  --surface:#1f1813;
+  --surface-2:#2a2019;
+  --primary:#3d2416;
+  --secondary:#8a5432;
+  --accent:#ff8a3d;
+  --accent-soft:#ffd9bf;
+  --text:#fbf4ee;
+  --muted:#d6c4b5;
+  --ink:#1a0e05;
+  --line:rgba(255,138,61,.32);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font-family:"Source Sans 3",system-ui,-apple-system,sans-serif;font-size:1.0625rem;line-height:1.68;-webkit-font-smoothing:antialiased}
+h1,h2,h3,h4{font-family:"Playfair Display",Georgia,serif;line-height:1.06;margin:0 0 1rem;letter-spacing:-.02em}
+h1{font-size:clamp(2.2rem,5.2vw,3.8rem);font-weight:800;max-width:20ch}
+h2{font-size:clamp(2rem,4.2vw,3.2rem);font-weight:700;max-width:22ch}
+h3{font-size:clamp(1.3rem,2.1vw,1.7rem);font-weight:700}
+p{margin:0 0 1.1rem;max-width:65ch}
+a{color:var(--accent);text-underline-offset:3px}
+a:hover{color:var(--accent-soft)}
+ul{margin:0 0 1.1rem;padding-left:1.2rem}
+li{margin-bottom:.45rem;max-width:62ch}
+:focus-visible{outline:3px solid var(--accent-soft);outline-offset:3px}
+img,svg{max-width:100%;height:auto;display:block}
+.skip{position:fixed;top:8px;left:8px;z-index:200;background:var(--accent);color:var(--ink);padding:.7rem 1rem;font-weight:700;text-decoration:none;transform:translateY(-220%);transition:transform .2s cubic-bezier(.22,.61,.36,1)}
+.skip:focus{transform:translateY(0)}
+.wrap{width:100%;max-width:1180px;margin:0 auto;padding:0 24px}
+.topbar{position:fixed;top:0;left:0;right:0;z-index:70;height:72px;background:var(--bg);border-bottom:2px solid var(--accent);display:flex;align-items:center;justify-content:space-between;padding:0 20px}
+.logo{display:flex;align-items:center;gap:.7rem;text-decoration:none;color:var(--text);font-family:"Playfair Display",serif;font-weight:800;font-size:1.35rem;letter-spacing:-.02em}
+.logo-mark{width:34px;height:34px;flex:0 0 34px}
+.logo small{display:block;font-family:"Source Sans 3",sans-serif;font-size:.62rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:600;line-height:1}
+.burger{width:48px;height:48px;border:2px solid var(--accent);background:var(--surface);color:var(--text);display:grid;place-items:center;cursor:pointer;padding:0}
+.burger span{display:block;width:24px;height:2px;background:var(--accent);margin:3px 0;transition:transform .25s cubic-bezier(.22,.61,.36,1),opacity .25s}
+.burger[aria-expanded="true"] span{display:none}
+.burger[aria-expanded="true"]::before{content:"×";font-size:2rem;line-height:1;color:var(--accent);font-family:"Source Sans 3",sans-serif}
+.menu-panel{display:none;position:fixed;top:72px;left:0;right:0;bottom:0;z-index:65;background:var(--bg);padding:2rem 24px 3rem;overflow-y:auto}
+.menu-panel.is-open{display:block;animation:drop .32s cubic-bezier(.22,.61,.36,1)}
+.menu-panel nav{max-width:720px;margin:0 auto}
+.menu-panel a{display:block;font-family:"Playfair Display",serif;font-size:clamp(1.7rem,6vw,2.6rem);color:var(--text);text-decoration:none;padding:.55rem 0;border-bottom:1px solid var(--line)}
+.menu-panel a:hover{color:var(--accent)}
+.menu-note{margin-top:2rem;color:var(--muted);font-size:.95rem}
+@keyframes drop{from{transform:translateY(-14px)}to{transform:translateY(0)}}
+.hero{position:relative;padding:7.5rem 0 4.5rem;overflow:hidden}
+.hero-grid{display:grid;grid-template-columns:repeat(12,1fr);gap:20px;align-items:start}
+.hero-copy{grid-column:span 8;min-width:0}
+.hero-signal{grid-column:span 4;min-width:0;align-self:stretch;display:flex;flex-direction:column;justify-content:space-between;gap:16px}
+.kicker{display:inline-block;background:var(--accent);color:var(--ink);font-weight:700;font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;padding:.45rem .7rem;margin-bottom:1.25rem;border:2px solid var(--ink);box-shadow:4px 4px 0 #000}
+.hero p.lead{font-size:clamp(1.12rem,1.8vw,1.34rem);color:var(--text);max-width:58ch}
+.actions{display:flex;flex-wrap:wrap;gap:14px;margin:1.6rem 0 1.2rem}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.5rem;padding:.95rem 1.35rem;font-weight:700;font-size:1rem;text-decoration:none;border:2px solid var(--ink);cursor:pointer;transition:transform .18s cubic-bezier(.22,.61,.36,1),box-shadow .18s cubic-bezier(.22,.61,.36,1),background-color .18s}
+.btn-primary{background:var(--accent);color:var(--ink);box-shadow:6px 6px 0 #000}
+.btn-primary:hover{background:var(--accent-soft);color:var(--ink);transform:translate(-2px,-2px);box-shadow:8px 8px 0 #000}
+.btn-primary:active{transform:translate(2px,2px);box-shadow:3px 3px 0 #000}
+.btn-ghost{background:transparent;color:var(--text);border-color:var(--accent)}
+.btn-ghost:hover{background:var(--surface-2);color:var(--accent)}
+.hero-note{color:var(--muted);font-size:.92rem;max-width:50ch}
+.signal-card{background:var(--accent);color:var(--ink);border:3px solid var(--ink);box-shadow:10px 10px 0 #000;padding:1.2rem;min-width:0}
+.signal-card p{color:var(--ink);font-size:.94rem;margin-bottom:.4rem;max-width:100%}
+.signal-card strong{display:block;font-family:"Playfair Display",serif;font-size:1.5rem;line-height:1.1}
+.hazard{width:100%;max-width:190px;margin:0 auto}
+.stats{grid-column:span 12;display:grid;grid-template-columns:repeat(12,1fr);gap:16px;margin-top:2.4rem}
+.stat{border:2px solid var(--accent);box-shadow:6px 6px 0 #000;padding:1.15rem 1rem;min-width:0;background:var(--surface)}
+.stat:nth-child(1){grid-column:span 3;background:var(--accent);color:var(--ink)}
+.stat:nth-child(2){grid-column:span 3;background:var(--surface-2)}
+.stat:nth-child(3){grid-column:span 3}
+.stat:nth-child(4){grid-column:span 3;background:var(--primary)}
+.stat-num{display:block;font-family:"Playfair Display",serif;font-size:clamp(2.2rem,4.5vw,3.6rem);font-weight:800;line-height:1;letter-spacing:-.04em}
+.stat-label{display:block;font-size:.9rem;line-height:1.35;margin-top:.5rem;color:var(--muted)}
+.stat:nth-child(1) .stat-label{color:var(--ink)}
+.stats-note{grid-column:span 12;color:var(--muted);font-size:.86rem;margin:.2rem 0 0;max-width:100%}
+.section{padding:5rem 0;border-top:1px solid var(--line)}
+.section-head{display:flex;flex-wrap:wrap;align-items:end;justify-content:space-between;gap:1rem;margin-bottom:2.2rem}
+.section-head p{color:var(--muted);margin:0;max-width:46ch}
+.valor-grid{display:grid;grid-template-columns:repeat(12,1fr);gap:16px}
+.valor{min-width:0;border:2px solid var(--accent);box-shadow:7px 7px 0 #000;padding:1.6rem}
+.valor p{color:var(--muted);margin:0;max-width:100%}
+.valor h3{margin-bottom:.7rem}
+.valor-a{grid-column:span 7;background:var(--accent);color:var(--ink)}
+.valor-a p{color:var(--ink)}
+.valor-b{grid-column:span 5;background:var(--surface)}
+.valor-c{grid-column:span 12;background:var(--surface-2);display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;align-items:start}
+.valor-c h3{margin:0}
+.programas-list{border-top:2px solid var(--accent)}
+.programa{display:grid;grid-template-columns:88px 1fr;gap:20px;padding:1.6rem 0;border-bottom:1px solid var(--line);min-width:0}
+.programa-num{font-family:"Playfair Display",serif;font-size:2.4rem;font-weight:800;color:var(--accent);line-height:1}
+.programa h3{margin-bottom:.35rem}
+.programa p{margin:0;color:var(--muted)}
+.programa:nth-child(even){background:linear-gradient(90deg,rgba(255,138,61,.06),transparent 65%)}
+.pasos{border-left:2px solid var(--accent);margin-left:8px;padding-left:28px}
+.paso{position:relative;padding:0 0 2.2rem;min-width:0}
+.paso:last-child{padding-bottom:0}
+.paso::before{content:"";position:absolute;left:-37px;top:.35rem;width:16px;height:16px;background:var(--accent);border:3px solid var(--bg)}
+.paso h3{margin-bottom:.4rem}
+.paso p{color:var(--muted);margin-bottom:0}
+.quienes{display:grid;grid-template-columns:1.35fr .65fr;gap:36px;align-items:start}
+.quienes p{color:var(--muted)}
+.valores{background:var(--accent);color:var(--ink);border:3px solid var(--ink);box-shadow:8px 8px 0 #000;padding:1.4rem}
+.valores h3{margin-bottom:.8rem}
+.valores ul{margin:0;padding-left:1.1rem}
+.valores li{color:var(--ink);margin-bottom:.55rem;max-width:100%}
+.testimonios{display:grid;grid-template-columns:repeat(12,1fr);gap:16px}
+.testimonio{border:2px solid var(--accent);padding:1.5rem;background:var(--surface);min-width:0;display:flex;flex-direction:column;justify-content:space-between}
+.testimonio:first-child{grid-column:span 7;background:var(--primary)}
+.testimonio:nth-child(2){grid-column:span 5;background:var(--surface-2)}
+.testimonio:nth-child(3){grid-column:span 12}
+.testimonio blockquote{margin:0 0 1.2rem;font-family:"Playfair Display",serif;font-size:1.2rem;line-height:1.4}
+.testimonio cite{font-style:normal;color:var(--muted);font-size:.9rem}
+.faq-item{border-top:1px solid var(--line)}
+.faq-item:last-child{border-bottom:1px solid var(--line)}
+.faq-btn{width:100%;background:none;border:0;color:var(--text);font-family:"Playfair Display",serif;font-size:clamp(1.1rem,2vw,1.4rem);font-weight:700;text-align:left;padding:1.2rem 0;display:flex;align-items:start;justify-content:space-between;gap:1rem;cursor:pointer}
+.faq-btn:hover{color:var(--accent)}
+.faq-icon{color:var(--accent);font-family:"Source Sans 3",sans-serif;font-size:1.5rem;line-height:1;flex:0 0 auto}
+.faq-panel{padding:0 0 1.4rem;color:var(--muted)}
+.faq-panel p{margin:0;max-width:68ch}
+.faq-panel[hidden]{display:none}
+.cierre{background:var(--accent);color:var(--ink);border-top:4px solid var(--ink);border-bottom:4px solid var(--ink);padding:4.5rem 0}
+.cierre h2,.cierre p{color:var(--ink)}
+.cierre p{max-width:60ch}
+.cierre .btn-primary{background:var(--ink);color:var(--accent-soft);border-color:var(--ink);box-shadow:6px 6px 0 var(--primary)}
+.cierre .btn-primary:hover{background:var(--primary);color:var(--text);box-shadow:8px 8px 0 var(--ink)}
+.cierre .btn:focus-visible{outline-color:var(--ink)}
+.legal{padding:4rem 0;border-top:1px solid var(--line)}
+.legal h2{font-size:clamp(1.7rem,3.4vw,2.4rem)}
+.legal p,.legal li{color:var(--muted);font-size:.98rem}
+.legal-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:start}
+.footer{background:var(--surface);border-top:4px solid var(--accent);padding:3.5rem 0 2rem}
+.footer-grid{display:grid;grid-template-columns:1.1fr .9fr .9fr;gap:32px;align-items:start}
+.footer h2{font-size:1.5rem;margin-bottom:.8rem}
+.footer p,.footer li{color:var(--muted);font-size:.95rem}
+.footer a{color:var(--accent)}
+.footer-bottom{border-top:1px solid var(--line);margin-top:2.2rem;padding-top:1.4rem;display:flex;flex-wrap:wrap;gap:1rem;justify-content:space-between;align-items:center}
+.footer-bottom p{margin:0;font-size:.86rem;max-width:70ch}
+.cumplimiento{background:var(--surface-2);border-left:4px solid var(--accent);padding:1rem 1.1rem;margin-top:1.5rem}
+.cumplimiento p{margin:0;font-size:.85rem;color:var(--muted);max-width:100%}
+.solicitud{display:contents}
+.solicitud-trigger{position:fixed;right:16px;bottom:16px;z-index:96;background:var(--accent);color:var(--ink);border:2px solid var(--ink);box-shadow:6px 6px 0 #000;width:56px;height:56px;padding:0;display:grid;place-items:center;font-weight:700;font-size:0;cursor:pointer;list-style:none;transition:transform .18s cubic-bezier(.22,.61,.36,1),box-shadow .18s cubic-bezier(.22,.61,.36,1)}
+.solicitud-trigger::-webkit-details-marker{display:none}
+.solicitud-trigger::before{content:"+";font-size:1.8rem;font-family:"Source Sans 3",sans-serif;line-height:1;font-weight:700}
+.solicitud-trigger:hover{transform:translate(-2px,-2px);box-shadow:8px 8px 0 #000}
+.solicitud[open]>.solicitud-trigger{top:auto;left:16px;right:auto;bottom:16px;z-index:100;width:auto;height:auto;background:var(--accent);font-size:0;padding:.55rem .8rem;box-shadow:4px 4px 0 #000}
+.solicitud[open]>.solicitud-trigger::before{content:"Cerrar";font-size:.9rem;font-family:"Source Sans 3",sans-serif;font-weight:700}
+.solicitud[open]::before{content:"";position:fixed;inset:0;background:rgba(8,5,4,.78);z-index:88}
+.solicitud-panel{position:fixed;top:0;right:0;bottom:0;z-index:90;width:min(540px,94%);background:var(--surface);border-left:4px solid var(--accent);padding:4rem 1.35rem 6rem;overflow-y:auto;animation:slideIn .34s cubic-bezier(.22,.61,.36,1)}
+@keyframes slideIn{from{transform:translateX(40px)}to{transform:translateX(0)}}
+.solicitud-panel h2{font-size:clamp(1.8rem,4vw,2.4rem);margin-bottom:.6rem}
+.solicitud-panel .intro{color:var(--muted);font-size:.95rem}
+.cerrar{position:absolute;top:12px;right:12px;background:var(--bg);color:var(--text);border:2px solid var(--accent);padding:.45rem .7rem;font-weight:700;cursor:pointer}
+.cerrar:hover{background:var(--accent);color:var(--ink)}
+.campo{margin-bottom:1rem}
+.campo label{display:block;font-weight:700;font-size:.92rem;margin-bottom:.35rem;color:var(--text)}
+.campo input,.campo select,.campo textarea{width:100%;padding:.75rem .7rem;font:inherit;font-size:1rem;background:#fbf4ee;color:#171009;border:2px solid #171009;border-radius:0}
+.campo textarea{min-height:110px;resize:vertical}
+.campo input:focus,.campo select:focus,.campo textarea:focus{outline:3px solid var(--accent);outline-offset:2px}
+.campo [aria-invalid="true"]{border-color:#c62828;background:#fff0ed}
+.error{color:#ffb4a8;font-size:.85rem;margin:.35rem 0 0;min-height:1.1em;max-width:100%}
+.form-foot{font-size:.82rem;color:var(--muted);margin-top:.6rem;max-width:100%}
+.exito{background:var(--accent);color:var(--ink);border:3px solid var(--ink);box-shadow:6px 6px 0 #000;padding:1.1rem;margin-top:1rem}
+.exito p{margin:0;color:var(--ink);max-width:100%}
+.exito[hidden]{display:none}
+@media (max-width:900px){
+  .hero-copy,.hero-signal{grid-column:span 12}
+  .hero-signal{flex-direction:row;flex-wrap:wrap}
+  .signal-card{flex:1 1 260px}
+  .stat:nth-child(n){grid-column:span 6}
+  .valor-a,.valor-b{grid-column:span 12}
+  .valor-c{grid-template-columns:1fr}
+  .quienes,.legal-grid,.footer-grid{grid-template-columns:1fr}
+  .testimonio:first-child,.testimonio:nth-child(2){grid-column:span 12}
+}
+@media (max-width:560px){
+  .wrap{padding:0 18px}
+  .hero{padding-top:6.4rem}
+  .stat:nth-child(n){grid-column:span 12}
+  .programa{grid-template-columns:56px 1fr;gap:14px}
+  .programa-num{font-size:1.9rem}
+  .pasos{padding-left:20px}
+  .paso::before{left:-29px}
+  .solicitud-panel{width:100%;border-left:0;border-top:4px solid var(--accent)}
+  .solicitud[open]>.solicitud-trigger{top:14px;bottom:auto;left:14px}
+  .footer-grid{gap:24px}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important}
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#formulario-panel">Saltar al formulario de contacto</a>
+
+<header class="topbar">
+  <a class="logo" href="#inicio" aria-label="BDV Empresas, ir al inicio">
+    <svg class="logo-mark" viewBox="0 0 40 40" aria-hidden="true" focusable="false">
+      <polygon points="20,3 37,34 3,34" fill="none" stroke="#ff8a3d" stroke-width="3"/>
+      <line x1="20" y1="14" x2="20" y2="24" stroke="#ff8a3d" stroke-width="3"/>
+      <circle cx="20" cy="29" r="2.2" fill="#ff8a3d"/>
+    </svg>
+    <span>BDV Empresas<small>Formación y acompañamiento</small></span>
+  </a>
+  <button class="burger" id="menu-toggle" type="button" aria-expanded="false" aria-controls="menu-panel" aria-label="Abrir menú de navegación">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<div class="menu-panel" id="menu-panel">
+  <nav aria-label="Navegación principal">
+    <a href="#enfoque">Enfoque</a>
+    <a href="#programas">Programas</a>
+    <a href="#ruta">Ruta de trabajo</a>
+    <a href="#quienes">Quiénes somos</a>
+    <a href="#casos">Casos</a>
+    <a href="#preguntas">Preguntas frecuentes</a>
+    <a href="#contacto">Contacto</a>
+    <p class="menu-note">Caracas · Maracaibo · Valencia · Barquisimeto<br>contacto@bdvempresas.com · +58 212 555 0148</p>
+  </nav>
+</div>
+
+<main id="contenido">
+  <section class="hero" id="inicio">
+    <div class="wrap">
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <span class="kicker">Operaciones que exigen criterio</span>
+          <h1>Manejo y transporte de mercancías peligrosas</h1>
+          <p class="lead">Con método y preparación. Una etiqueta mal colocada, una ficha desactualizada o una ruta sin puntos de control pueden convertir una operación rutinaria en un incidente que afecta a personas, instalaciones y continuidad del trabajo. BDV Empresas acompaña a equipos de manufactura, logística, laboratorios, almacenes y construcción en la lectura técnica del peligro: qué se mueve, cómo se embala, cómo se identifica y qué se hace cuando algo sale del plan.</p>
+          <p class="hero-note">Formación práctica, protocolos escritos y revisión en sitio para que cada decisión quede sustentada y cada rol sepa qué hacer.</p>
+          <div class="actions">
+            <a class="btn btn-primary" href="#solicitud" data-open-form>Abrir formulario de diagnóstico</a>
+            <a class="btn btn-ghost" href="#programas">Ver líneas de trabajo</a>
+          </div>
+        </div>
+        <div class="hero-signal" aria-label="Señal informativa de peligro">
+          <div class="signal-card">
+            <svg class="hazard" viewBox="0 0 120 110" role="img" aria-label="Triángulo de advertencia con signo de exclamación">
+              <polygon points="60,6 114,101 6,101" fill="none" stroke="#1a0e05" stroke-width="6"/>
+              <line x1="60" y1="40" x2="60" y2="70" stroke="#1a0e05" stroke-width="7"/>
+              <circle cx="60" cy="82" r="5" fill="#1a0e05"/>
+            </svg>
+            <p><strong>Primero se identifica.</strong> Después se mueve, se almacena o se despacha. El orden no es un detalle: es la base del protocolo.</p>
+          </div>
+        </div>
+
+        <div class="stats" aria-label="Actividad acumulada de BDV Empresas">
+          <div class="stat">
+            <span class="stat-num" data-count="12">12</span><span class="stat-num" aria-hidden="true">+</span>
+            <span class="stat-label">años acompañando operaciones con materiales sensibles*</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num" data-count="480">480</span><span class="stat-num" aria-hidden="true">+</span>
+            <span class="stat-label">equipos de trabajo formados en Venezuela*</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num" data-count="26">26</span><span class="stat-num" aria-hidden="true">+</span>
+            <span class="stat-label">sectores atendidos entre manufactura, logística y servicios*</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num" data-count="94">94</span><span class="stat-num" aria-hidden="true">%</span>
+            <span class="stat-label">valoración de satisfacción en encuestas internas**</span>
+          </div>
+          <p class="stats-note">* Histórico acumulado. ** Encuesta interna. Cada caso es distinto y los resultados varían según el perfil de cada cliente.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="enfoque">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Tres decisiones que ordenan el manejo de mercancías peligrosas</h2>
+        <p>No se trata de memorizar siglas: se trata de construir una secuencia de decisiones que el equipo pueda repetir en cada turno.</p>
+      </div>
+      <div class="valor-grid">
+        <article class="valor valor-a">
+          <h3>Leer el peligro antes de mover</h3>
+          <p>Clasificar una mercancía peligrosa exige revisar su naturaleza, su compatibilidad con otras sustancias y las condiciones del entorno. En el acompañamiento se ordenan criterios para reconocer la clase, revisar la ficha de datos de seguridad y definir la segregación antes de que el material toque el área de carga. La pregunta inicial no es “¿cómo lo movemos?”, sino “¿qué necesita esta sustancia para no exponer a nadie durante el recorrido?”.</p>
+        </article>
+        <article class="valor valor-b">
+          <h3>Documentar cada paso</h3>
+          <p>La trazabilidad no vive en la memoria de una persona. Vive en etiquetas legibles, fichas vigentes, listas de verificación y registros que cualquier turno pueda interpretar. Se trabaja con formatos claros, versiones controladas y puntos de firma para que la información acompañe al material y no se quede en una oficina.</p>
+        </article>
+        <article class="valor valor-c">
+          <h3>Preparar la respuesta</h3>
+          <p>Un protocolo de respuesta ante derrames se prueba con simulacros, no con buenas intenciones. Se definen roles, rutas de evacuación, materiales de contención, zonas de resguardo y canales de comunicación. La formación incluye práctica de contención y revisión de lo ocurrido para ajustar procedimientos.</p>
+          <p>La preparación reduce la improvisación. No elimina la responsabilidad de evaluar cada caso, pero permite que el equipo actúe con un orden conocido y documentado.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="programas">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Seis frentes de trabajo para mercancías peligrosas</h2>
+        <p>Los programas se adaptan al tipo de material, al volumen y a la madurez del equipo. No se impone una plantilla: se construye una ruta de formación con evidencias.</p>
+      </div>
+      <div class="programas-list">
+        <article class="programa">
+          <div class="programa-num" aria-hidden="true">01</div>
+          <div>
+            <h3>Clasificación y etiquetado</h3>
+            <p>Revisión de clases de peligro, pictogramas, palabras de advertencia y criterios de compatibilidad. Se practica con casos reales del almacén y se corrige la señalización de áreas de almacenamiento, carga y despacho. El objetivo es que la etiqueta comunique lo mismo al operador, al conductor y al equipo de respuesta.</p>
+          </div>
+        </article>
+        <article class="programa">
+          <div class="programa-num" aria-hidden="true">02</div>
+          <div>
+            <h3>Fichas de datos de seguridad</h3>
+            <p>Orden de las fichas, control de versiones, accesibilidad en el puesto de trabajo y lectura de las secciones que más se consultan durante una emergencia. Se definen responsables de actualización y un formato de consulta rápida para turnos nocturnos o relevos.</p>
+          </div>
+        </article>
+        <article class="programa">
+          <div class="programa-num" aria-hidden="true">03</div>
+          <div>
+            <h3>Embalaje, carga y descarga</h3>
+            <p>Selección de envases y embalajes según la sustancia, revisión de cierres, sujeción de paletas, apilamiento, separación de incompatibles e inspección antes de cerrar la unidad. Se incluyen listas de verificación para el muelle y para el punto de recepción.</p>
+          </div>
+        </article>
+        <article class="programa">
+          <div class="programa-num" aria-hidden="true">04</div>
+          <div>
+            <h3>Rutas y documentación</h3>
+            <p>Planificación de recorridos, identificación de puntos críticos, horarios de circulación, coordinación con centros de acopio y revisión de documentos que deben acompañar la carga. Se trabaja con escenarios de desvío y con protocolos de comunicación entre despacho, transporte y destino.</p>
+          </div>
+        </article>
+        <article class="programa">
+          <div class="programa-num" aria-hidden="true">05</div>
+          <div>
+            <h3>Respuesta ante derrames</h3>
+            <p>Contención, absorción, señalización del área, uso de protección personal y comunicación con equipos internos. Se revisan kits de respuesta, ubicación de estaciones de limpieza y criterios para delimitar una zona caliente. Cada simulacro termina con una evaluación escrita y compromisos de ajuste.</p>
+          </div>
+        </article>
+        <article class="programa">
+          <div class="programa-num" aria-hidden="true">06</div>
+          <div>
+            <h3>Formación y simulacros</h3>
+            <p>Diseño de sesiones por rol, evaluaciones prácticas y acompañamiento en el primer simulacro. Se documentan hallazgos, se ajustan procedimientos y se prepara al equipo para repetir el ejercicio con autonomía. La formación deja material de consulta para nuevos ingresos.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="ruta">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Ruta de acompañamiento para mercancías peligrosas</h2>
+        <p>Un proceso gradual, con entregables en cada tramo y una conversación abierta sobre lo que la operación puede sostener.</p>
+      </div>
+      <div class="pasos">
+        <article class="paso">
+          <h3>Diagnóstico de la operación</h3>
+          <p>Recorrido por almacén, muelle y zona de carga; entrevistas con supervisores y operadores; revisión de fichas, etiquetas y registros. Se identifican brechas entre lo que está escrito y lo que ocurre en el turno. El resultado es un mapa de prioridades, no una lista genérica de recomendaciones.</p>
+        </article>
+        <article class="paso">
+          <h3>Diseño del protocolo</h3>
+          <p>Con las prioridades acordadas se redactan procedimientos, listas de verificación y matrices de compatibilidad. Cada documento se prueba con el equipo que lo va a usar. Se ajustan nombres, rutas y responsabilidades para que el protocolo sea aplicable en la operación real.</p>
+        </article>
+        <article class="paso">
+          <h3>Capacitación en planta</h3>
+          <p>Las sesiones combinan explicación técnica, revisión de casos y práctica en el puesto. Se trabaja con el material que la empresa manipula y con los escenarios que el equipo reconoce. Se evalúa la comprensión y se dejan guías de consulta para el turno.</p>
+        </article>
+        <article class="paso">
+          <h3>Seguimiento y ajuste</h3>
+          <p>Después de la formación se observa una operación completa, se revisan registros y se conversa con el equipo. Se corrigen desviaciones, se actualizan documentos y se define una rutina de revisión. El acompañamiento puede continuar con nuevos simulacros o con sesiones de refuerzo.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="quienes">
+    <div class="wrap">
+      <div class="quienes">
+        <div>
+          <h2>Una iniciativa empresarial con acento venezolano</h2>
+          <p>BDV Empresas es una iniciativa de formación y acompañamiento para organizaciones que necesitan ordenar operaciones sensibles. No transportamos carga ni actuamos como autoridad: diseñamos programas, revisamos prácticas y acompañamos equipos para que el conocimiento quede instalado en la empresa.</p>
+          <p>Trabajamos con lenguaje claro, evidencia documental y respeto por el trabajo de quien está en el muelle, en el laboratorio o al volante. Nuestra lectura es simple: la seguridad operativa se construye con decisiones repetibles, no con discursos. Por eso cada programa incluye práctica, revisión y material de consulta.</p>
+          <p>Tenemos presencia de trabajo en Caracas, Maracaibo, Valencia y Barquisimeto. Atendemos empresas de distintos tamaños, desde talleres con un almacén pequeño hasta operaciones con varios centros de distribución.</p>
+        </div>
+        <aside class="valores">
+          <h3>Lo que guía el trabajo</h3>
+          <ul>
+            <li>Criterio técnico antes que respuestas automáticas.</li>
+            <li>Claridad para que cada rol entienda su parte.</li>
+            <li>Respeto por la operación y por sus tiempos.</li>
+            <li>Aprendizaje continuo, con revisión de lo actuado.</li>
+            <li>Documentación útil, no papeles que nadie consulta.</li>
+          </ul>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="casos">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Lo que observan las empresas que entrenan</h2>
+        <p>Testimonios de equipos que pasaron por un proceso de formación y revisión de protocolos. Cada organización vive su propio recorrido.</p>
+      </div>
+      <div class="testimonios">
+        <article class="testimonio">
+          <blockquote>“Antes cada turno tenía su propia forma de etiquetar. Después del trabajo con BDV Empresas usamos el mismo criterio en recepción, almacén y despacho. La diferencia se nota cuando llega una auditoría y cuando entra personal nuevo.”</blockquote>
+          <cite>Coordinadora de operaciones, empresa de distribución de insumos industriales</cite>
+        </article>
+        <article class="testimonio">
+          <blockquote>“La revisión de fichas y de la matriz de compatibilidad nos ayudó a reubicar materiales que estaban demasiado cerca. No fue un cambio de discurso: fue una decisión concreta en el almacén.”</blockquote>
+          <cite>Jefe de almacén, laboratorio de productos de limpieza</cite>
+        </article>
+        <article class="testimonio">
+          <blockquote>“El simulacro de derrame nos mostró que faltaba señalizar una ruta de acceso. Corregimos la ubicación del kit y reasignamos roles. La formación fue útil porque salimos con tareas claras y fechas de seguimiento.”</blockquote>
+          <cite>Gerente de calidad, planta de manufactura en Valencia</cite>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="preguntas">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Preguntas frecuentes sobre mercancías peligrosas</h2>
+        <p>Respuestas directas para orientar la conversación inicial. Cada operación se evalúa según su material, su volumen y su organización.</p>
+      </div>
+      <div class="faq">
+        <div class="faq-item">
+          <h3><button class="faq-btn" type="button" aria-expanded="true" aria-controls="faq-a1" id="faq-q1">¿Qué se considera mercancía peligrosa?<span class="faq-icon" aria-hidden="true">−</span></button></h3>
+          <div class="faq-panel" id="faq-a1" role="region" aria-labelledby="faq-q1">
+            <p>Es todo material que, por sus propiedades físicas o químicas, puede afectar a personas, instalaciones o al entorno durante su manipulación, almacenamiento o traslado. Incluye sustancias inflamables, corrosivas, tóxicas, oxidantes, reactivas con el agua o con otras sustancias, entre otras categorías. La clasificación se confirma con la ficha de datos de seguridad y con la normativa aplicable a cada producto. En el acompañamiento se revisa el inventario real y se identifican los materiales que requieren condiciones especiales.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <h3><button class="faq-btn" type="button" aria-expanded="true" aria-controls="faq-a2" id="faq-q2">¿Cómo empieza un programa de formación?<span class="faq-icon" aria-hidden="true">−</span></button></h3>
+          <div class="faq-panel" id="faq-a2" role="region" aria-labelledby="faq-q2">
+            <p>Con una conversación de alcance y un recorrido por la operación. Se revisan los materiales que se manipulan, los turnos, los espacios de almacenamiento y los documentos existentes. Con esa información se propone una ruta de sesiones y entregables. No se vende una solución cerrada antes de conocer el punto de partida: el programa se ajusta al tamaño del equipo y a las prioridades que la empresa defina.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <h3><button class="faq-btn" type="button" aria-expanded="true" aria-controls="faq-a3" id="faq-q3">¿Atienden operaciones pequeñas?<span class="faq-icon" aria-hidden="true">−</span></button></h3>
+          <div class="faq-panel" id="faq-a3" role="region" aria-labelledby="faq-q3">
+            <p>Sí. Un taller, un almacén pequeño o un laboratorio con pocos productos también necesita identificar incompatibilidades y definir una respuesta ante derrames. El alcance se adapta: puede ser una revisión puntual, una sesión de formación o un acompañamiento más amplio. Lo importante es que el protocolo se pueda sostener con el equipo disponible y que las decisiones queden documentadas.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <h3><button class="faq-btn" type="button" aria-expanded="true" aria-controls="faq-a4" id="faq-q4">¿Qué documentos revisan?<span class="faq-icon" aria-hidden="true">−</span></button></h3>
+          <div class="faq-panel" id="faq-a4" role="region" aria-labelledby="faq-q4">
+            <p>Fichas de datos de seguridad, etiquetas, procedimientos de almacenamiento, listas de verificación de carga, registros de capacitación y protocolos de respuesta. También se revisa la señalización de áreas y la disponibilidad de material de contención. El objetivo es encontrar vacíos, versiones vencidas o instrucciones que no se corresponden con lo que ocurre en el turno.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <h3><button class="faq-btn" type="button" aria-expanded="true" aria-controls="faq-a5" id="faq-q5">¿Cómo se prepara al equipo ante un derrame?<span class="faq-icon" aria-hidden="true">−</span></button></h3>
+          <div class="faq-panel" id="faq-a5" role="region" aria-labelledby="faq-q5">
+            <p>Con un protocolo escrito, roles definidos y práctica. Se identifican zonas de resguardo, rutas de evacuación, ubicación de kits y criterios para delimitar el área afectada. Luego se realiza un simulacro con observación y evaluación. Al final se revisan tiempos, comunicación y uso de protección personal, y se acuerdan correcciones. La preparación se repite para que el equipo mantenga la destreza.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <h3><button class="faq-btn" type="button" aria-expanded="true" aria-controls="faq-a6" id="faq-q6">¿La formación es presencial, en línea o mixta?<span class="faq-icon" aria-hidden="true">−</span></button></h3>
+          <div class="faq-panel" id="faq-a6" role="region" aria-labelledby="faq-q6">
+            <p>Se combina según la necesidad. La revisión de documentos y las sesiones conceptuales pueden realizarse en línea; la práctica de carga, etiquetado y contención conviene hacerla en el espacio de trabajo. La modalidad mixta suele funcionar bien cuando hay varios turnos o sedes. La decisión se toma después del diagnóstico y se deja por escrito en el alcance del programa.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cierre" id="contacto">
+    <div class="wrap">
+      <h2>Hablemos de su operación</h2>
+      <p>Cuéntenos qué materiales manipula, cuántos turnos cubre y qué le preocupa del proceso actual. Con esa información podemos orientar el siguiente paso y proponer una conversación de alcance.</p>
+      <div class="actions">
+        <a class="btn btn-primary" href="#solicitud" data-open-form>Solicitar diagnóstico</a>
+        <a class="btn btn-ghost" href="mailto:contacto@bdvempresas.com" style="border-color:#1a0e05;color:#1a0e05">Escribir a contacto@bdvempresas.com</a>
+      </div>
+      <p style="margin-top:1rem;font-size:.95rem">Teléfono: +58 212 555 0148 · Atención de lunes a viernes, 8:00 a 17:00.</p>
+    </div>
+  </section>
+
+  <section class="legal" id="privacidad">
+    <div class="wrap">
+      <div class="legal-grid">
+        <div>
+          <h2>Aviso de privacidad</h2>
+          <p>BDV Empresas recibe los datos que usted escribe en el formulario de contacto con la finalidad de responder su solicitud, coordinar una conversación y enviar información relacionada con el programa consultado. Los datos se conservan mientras la conversación esté activa o hasta que usted solicite su eliminación.</p>
+          <p>No se ceden datos personales a terceros ajenos a la iniciativa, salvo cuando exista una obligación legal o cuando sea necesario para atender una solicitud expresa de la empresa solicitante. El acceso interno se limita a las personas que preparan la respuesta.</p>
+          <p>Usted puede pedir acceso, corrección o eliminación de sus datos escribiendo a contacto@bdvempresas.com. También puede solicitar que no se le envíe información adicional. La respuesta se dará por la misma vía en un plazo razonable.</p>
+          <p>El sitio no utiliza cookies de seguimiento publicitario. Los datos del formulario se transmiten por un canal habilitado para la gestión de la solicitud y no se usan para fines distintos a los aquí descritos.</p>
+        </div>
+        <div id="terminos">
+          <h2>Términos y condiciones</h2>
+          <p>El contenido de este sitio es informativo y no sustituye la evaluación técnica de cada operación ni la normativa aplicable. Las referencias a materiales, procesos y prácticas son orientativas y deben contrastarse con las fichas de datos de seguridad y con los procedimientos internos de cada organización.</p>
+          <p>Los programas de formación y acompañamiento se ajustan al alcance que se defina por escrito antes de iniciar. Las condiciones, entregables y tiempos se acuerdan con cada empresa según su realidad operativa. La información publicada no constituye una oferta vinculante.</p>
+          <p>BDV Empresas no actúa como autoridad de control ni como responsable del transporte de la carga. La empresa usuaria mantiene la responsabilidad sobre sus instalaciones, su personal y sus decisiones operativas.</p>
+          <p>El uso de este sitio implica la aceptación de estos términos. Si alguna disposición no resulta aplicable, las demás conservan su vigencia.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer" id="contacto-pie">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <h2>BDV Empresas</h2>
+        <p>Formación y acompañamiento para operaciones que necesitan método, documentación y preparación.</p>
+        <p><strong>Iniciativa empresarial de BDV Empresas en Venezuela.</strong></p>
+      </div>
+      <div>
+        <h2>Contacto</h2>
+        <p>Edificio Centro Profesional, piso 6, Av. Francisco de Miranda, Chacao, Caracas 1060, Venezuela.</p>
+        <p>Teléfono: <a href="tel:+582125550148">+58 212 555 0148</a><br>
+        Correo: <a href="mailto:contacto@bdvempresas.com">contacto@bdvempresas.com</a></p>
+      </div>
+      <div>
+        <h2>Enlaces</h2>
+        <ul style="list-style:none;padding:0">
+          <li><a href="#enfoque">Enfoque</a></li>
+          <li><a href="#programas">Programas</a></li>
+          <li><a href="#ruta">Ruta de trabajo</a></li>
+          <li><a href="#quienes">Quiénes somos</a></li>
+          <li><a href="#preguntas">Preguntas frecuentes</a></li>
+          <li><a href="#privacidad">Aviso de privacidad</a></li>
+          <li><a href="#terminos">Términos y condiciones</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="cumplimiento">
+      <p>BDV Empresas ofrece servicios de carácter referencial. La información de este sitio no constituye una oferta vinculante. Las condiciones se determinan de forma individual y los resultados pueden variar según el perfil de cada cliente.</p>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 BDV Empresas. Caracas · Maracaibo · Valencia · Barquisimeto.</p>
+      <p><a href="#privacidad">Aviso de privacidad</a> · <a href="#terminos">Términos y condiciones</a></p>
+    </div>
+  </div>
+</footer>
+
+<details class="solicitud" id="solicitud">
+  <summary class="solicitud-trigger" aria-label="Abrir o cerrar formulario de diagnóstico">Formulario</summary>
+  <div class="solicitud-panel" id="formulario-panel">
+    <button class="cerrar" type="button" data-close-form aria-label="Cerrar formulario">Cerrar</button>
+    <h2>Cuéntenos su caso</h2>
+    <p class="intro">Complete los datos y el equipo de BDV Empresas se comunicará para coordinar una conversación de alcance. Los campos marcados con * son necesarios.</p>
+    <form id="formulario" novalidate>
+      <div class="campo">
+        <label for="nombre">Nombre y apellido *</label>
+        <input type="text" id="nombre" name="nombre" autocomplete="name" required aria-describedby="error-nombre">
+        <p class="error" id="error-nombre"></p>
+      </div>
+      <div class="campo">
+        <label for="empresa">Empresa *</label>
+        <input type="text" id="empresa" name="empresa" autocomplete="organization" required aria-describedby="error-empresa">
+        <p class="error" id="error-empresa"></p>
+      </div>
+      <div class="campo">
+        <label for="email">Correo electrónico *</label>
+        <input type="email" id="email" name="email" autocomplete="email" required aria-describedby="error-email">
+        <p class="error" id="error-email"></p>
+      </div>
+      <div class="campo">
+        <label for="telefono">Teléfono *</label>
+        <input type="tel" id="telefono" name="telefono" autocomplete="tel" required aria-describedby="error-telefono">
+        <p class="error" id="error-telefono"></p>
+      </div>
+      <div class="campo">
+        <label for="sector">Sector de la empresa *</label>
+        <select id="sector" name="sector" required aria-describedby="error-sector">
+          <option value="">Seleccione una opción</option>
+          <option value="manufactura">Manufactura y producción</option>
+          <option value="logistica">Logística y distribución</option>
+          <option value="quimica">Química, laboratorios y afines</option>
+          <option value="almacenes">Almacenes y centros de acopio</option>
+          <option value="construccion">Construcción e infraestructura</option>
+          <option value="servicios">Servicios y mantenimiento</option>
+          <option value="otro">Otro sector</option>
+        </select>
+        <p class="error" id="error-sector"></p>
+      </div>
+      <div class="campo">
+        <label for="tamano">Tamaño del equipo *</label>
+        <select id="tamano" name="tamano" required aria-describedby="error-tamano">
+          <option value="">Seleccione una opción</option>
+          <option value="1-20">De 1 a 20 personas</option>
+          <option value="21-100">De 21 a 100 personas</option>
+          <option value="101-500">De 101 a 500 personas</option>
+          <option value="mas-500">Más de 500 personas</option>
+          <option value="por-definir">Aún por definir</option>
+        </select>
+        <p class="error" id="error-tamano"></p>
+      </div>
+      <div class="campo">
+        <label for="mensaje">¿Qué necesita revisar? (opcional)</label>
+        <textarea id="mensaje" name="mensaje" aria-describedby="error-mensaje"></textarea>
+        <p class="error" id="error-mensaje"></p>
+      </div>
+      <button class="btn btn-primary" type="submit">Enviar solicitud</button>
+      <p class="form-foot">Al enviar, usted acepta el aviso de privacidad. Este formulario es una toma de contacto; no sustituye una evaluación técnica en sitio.</p>
+    </form>
+    <div class="exito" id="exito" role="status" aria-live="polite" tabindex="-1" hidden>
+      <p><strong>Solicitud recibida.</strong> Gracias por escribir. El equipo de BDV Empresas revisará la información y se comunicará por correo o teléfono para coordinar la conversación.</p>
+    </div>
+  </div>
+</details>
+
+<script>
+(function(){
+  var menuToggle = document.getElementById('menu-toggle');
+  var menuPanel = document.getElementById('menu-panel');
+
+  function setMenu(open){
+    menuToggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+    menuToggle.setAttribute('aria-label', open ? 'Cerrar menú de navegación' : 'Abrir menú de navegación');
+    menuPanel.classList.toggle('is-open', open);
+  }
+
+  menuToggle.addEventListener('click', function(){
+    setMenu(menuToggle.getAttribute('aria-expanded') !== 'true');
+  });
+
+  menuPanel.addEventListener('click', function(e){
+    if(e.target.tagName === 'A'){ setMenu(false); }
+  });
+
+  document.addEventListener('keydown', function(e){
+    if(e.key === 'Escape'){
+      if(menuToggle.getAttribute('aria-expanded') === 'true'){
+        setMenu(false);
+        menuToggle.focus();
+      }
+      var sol = document.getElementById('solicitud');
+      if(sol && sol.open){
+        sol.open = false;
+        var trig = sol.querySelector('summary');
+        if(trig){ trig.focus(); }
+      }
+    }
+  });
+
+  var skipLink = document.querySelector('.skip');
+  if(skipLink){
+    skipLink.addEventListener('click', function(e){
+      e.preventDefault();
+      solicitud.open = true;
+      window.setTimeout(function(){ if(firstField){ firstField.focus(); } }, 120);
+    });
+  }
+
+  var solicitud = document.getElementById('solicitud');
+  var trigger = solicitud.querySelector('summary');
+  var closeBtn = solicitud.querySelector('[data-close-form]');
+  var firstField = document.getElementById('nombre');
+
+  document.querySelectorAll('[data-open-form]').forEach(function(el){
+    el.addEventListener('click', function(e){
+      e.preventDefault();
+      solicitud.open = true;
+      window.setTimeout(function(){ if(firstField){ firstField.focus(); } }, 120);
+    });
+  });
+
+  if(closeBtn){
+    closeBtn.addEventListener('click', function(){
+      solicitud.open = false;
+      trigger.focus();
+    });
+  }
+
+  solicitud.addEventListener('toggle', function(){
+    if(solicitud.open && firstField){
+      window.setTimeout(function(){ firstField.focus(); }, 120);
+    }
+  });
+
+  var faqButtons = document.querySelectorAll('.faq-btn');
+  faqButtons.forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var expanded = btn.getAttribute('aria-expanded') === 'true';
+      var panel = document.getElementById(btn.getAttribute('aria-controls'));
+      if(expanded){
+        btn.setAttribute('aria-expanded','false');
+        panel.hidden = true;
+        var icon = btn.querySelector('.faq-icon');
+        if(icon){ icon.textContent = '+'; }
+      } else {
+        faqButtons.forEach(function(other){
+          if(other !== btn){
+            other.setAttribute('aria-expanded','false');
+            var p = document.getElementById(other.getAttribute('aria-controls'));
+            if(p){ p.hidden = true; }
+            var i = other.querySelector('.faq-icon');
+            if(i){ i.textContent = '+'; }
+          }
+        });
+        btn.setAttribute('aria-expanded','true');
+        panel.hidden = false;
+        var mine = btn.querySelector('.faq-icon');
+        if(mine){ mine.textContent = '−'; }
+      }
+    });
+  });
+
+  var form = document.getElementById('formulario');
+  var exito = document.getElementById('exito');
+
+  function setError(id, message){
+    var field = document.getElementById(id);
+    var error = document.getElementById('error-' + id);
+    if(message){
+      field.setAttribute('aria-invalid','true');
+      error.textContent = message;
+    } else {
+      field.removeAttribute('aria-invalid');
+      error.textContent = '';
+    }
+  }
+
+  function validEmail(value){
+    return /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(value);
+  }
+
+  function validPhone(value){
+    return /^[+()0-9\s.-]{7,22}$/.test(value);
+  }
+
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+    var firstInvalid = null;
+    var checks = [
+      ['nombre', function(v){ return v.trim().length >= 2; }, 'Escriba su nombre.'],
+      ['empresa', function(v){ return v.trim().length >= 2; }, 'Escriba el nombre de la empresa.'],
+      ['email', function(v){ return validEmail(v.trim()); }, 'Escriba un correo válido.'],
+      ['telefono', function(v){ return validPhone(v.trim()); }, 'Escriba un teléfono válido.'],
+      ['sector', function(v){ return v !== ''; }, 'Seleccione el sector.'],
+      ['tamano', function(v){ return v !== ''; }, 'Seleccione el tamaño del equipo.']
+    ];
+    checks.forEach(function(item){
+      var field = document.getElementById(item[0]);
+      var ok = item[1](field.value);
+      setError(item[0], ok ? '' : item[2]);
+      if(!ok && !firstInvalid){ firstInvalid = field; }
+    });
+
+    if(firstInvalid){
+      firstInvalid.focus();
+      return;
+    }
+
+    // Punto de integración con backend:
+    // fetch('/enviar.php', { method:'POST', body:new FormData(form) })
+    form.hidden = true;
+    exito.hidden = false;
+    exito.focus();
+  });
+
+  var counters = document.querySelectorAll('[data-count]');
+  function animateCounter(el){
+    var target = parseInt(el.getAttribute('data-count'), 10);
+    if(isNaN(target)){ return; }
+    if(window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches){ el.textContent = String(target); return; }
+    var start = null;
+    var duration = 900;
+    function step(ts){
+      if(!start){ start = ts; }
+      var progress = Math.min((ts - start) / duration, 1);
+      var eased = 1 - Math.pow(1 - progress, 3);
+      el.textContent = String(Math.round(target * eased));
+      if(progress < 1){ window.requestAnimationFrame(step); }
+      else { el.textContent = String(target); }
+    }
+    el.textContent = '0';
+    window.requestAnimationFrame(step);
+  }
+
+  if('IntersectionObserver' in window){
+    var seen = new WeakSet();
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(entry){
+        if(entry.isIntersecting && !seen.has(entry.target)){
+          seen.add(entry.target);
+          animateCounter(entry.target);
+          io.unobserve(entry.target);
+        }
+      });
+    }, {threshold:0.5});
+    counters.forEach(function(c){ io.observe(c); });
+  }
+})();
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "BDV Empresas",
+  "url": "https://bdvempresas.com/",
+  "email": "contacto@bdvempresas.com",
+  "telephone": "+58 212 555 0148",
+  "description": "Iniciativa empresarial de formación y acompañamiento para operaciones con mercancías peligrosas en Venezuela.",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Edificio Centro Profesional, piso 6, Av. Francisco de Miranda, Chacao",
+    "addressLocality": "Caracas",
+    "addressRegion": "Miranda",
+    "postalCode": "1060",
+    "addressCountry": "VE"
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "Venezuela"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Manejo y transporte de mercancías peligrosas | BDV Empresas",
+  "description": "Formación y acompañamiento para clasificar, embalar, etiquetar, cargar y transportar mercancías peligrosas con protocolos claros, fichas de datos y respuesta ante derrames en Venezuela.",
+  "url": "https://bdvempresas.com/mercancias-peligrosas/",
+  "inLanguage": "es-VE",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BDV Empresas",
+    "url": "https://bdvempresas.com/"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Inicio",
+      "item": "https://bdvempresas.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Mercancías peligrosas",
+      "item": "https://bdvempresas.com/mercancias-peligrosas/"
+    }
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "¿Qué se considera mercancía peligrosa?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Es todo material que, por sus propiedades físicas o químicas, puede afectar a personas, instalaciones o al entorno durante su manipulación, almacenamiento o traslado. Incluye sustancias inflamables, corrosivas, tóxicas, oxidantes, reactivas con el agua o con otras sustancias, entre otras categorías. La clasificación se confirma con la ficha de datos de seguridad y con la normativa aplicable a cada producto. En el acompañamiento se revisa el inventario real y se identifican los materiales que requieren condiciones especiales."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo empieza un programa de formación?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Con una conversación de alcance y un recorrido por la operación. Se revisan los materiales que se manipulan, los turnos, los espacios de almacenamiento y los documentos existentes. Con esa información se propone una ruta de sesiones y entregables. No se vende una solución cerrada antes de conocer el punto de partida: el programa se ajusta al tamaño del equipo y a las prioridades que la empresa defina."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Atienden operaciones pequeñas?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sí. Un taller, un almacén pequeño o un laboratorio con pocos productos también necesita identificar incompatibilidades y definir una respuesta ante derrames. El alcance se adapta: puede ser una revisión puntual, una sesión de formación o un acompañamiento más amplio. Lo importante es que el protocolo se pueda sostener con el equipo disponible y que las decisiones queden documentadas."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué documentos revisan?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Fichas de datos de seguridad, etiquetas, procedimientos de almacenamiento, listas de verificación de carga, registros de capacitación y protocolos de respuesta. También se revisa la señalización de áreas y la disponibilidad de material de contención. El objetivo es encontrar vacíos, versiones vencidas o instrucciones que no se corresponden con lo que ocurre en el turno."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo se prepara al equipo ante un derrame?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Con un protocolo escrito, roles definidos y práctica. Se identifican zonas de resguardo, rutas de evacuación, ubicación de kits y criterios para delimitar el área afectada. Luego se realiza un simulacro con observación y evaluación. Al final se revisan tiempos, comunicación y uso de protección personal, y se acuerdan correcciones. La preparación se repite para que el equipo mantenga la destreza."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿La formación es presencial, en línea o mixta?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Se combina según la necesidad. La revisión de documentos y las sesiones conceptuales pueden realizarse en línea; la práctica de carga, etiquetado y contención conviene hacerla en el espacio de trabajo. La modalidad mixta suele funcionar bien cuando hay varios turnos o sedes. La decisión se toma después del diagnóstico y se deja por escrito en el alcance del programa."
+      }
+    }
+  ]
+}
+</script>
+</body>
+</html>
+
